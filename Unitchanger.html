@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  charset="en-Us">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Unitchanger.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="Container">
+    <h1>Unit Converter</h1>
+    
+    <div id="out" >0</div>
+
+<select id="sele" onchange="onChange()" >
+  <option >Click to Choose Unit</option>
+  <option value="Kilometer to Mile">Kilometer to Mile</option>
+  <option value="Mile to Kilometer">Mile to Kilometer</option>
+  <option value="Feet to Meter">Feet to Meter</option>  
+  <option value="Meter to Feet">Feet to meter</option>
+  <option value="Square feet to Acres">Square feet to Acres</option>
+  <option value="Acres to Square feet">Acres to Square feet</option>
+  
+ <option value="Fehrenheit to Kelvin">Fehrenheit to Kelvin</option>
+  <option value="Kelvin to Fehrenheit">Kelvin to Fehrenheit</option>
+  <option value="Fehrenheit to Celcius">Fehrenheit to Celcius</option>
+  <option value="Celcius to Fehrenheit">Celcius to Fehrenheit</option>
+  <option value="Kelvin to Celcius">Kelvin to Celcius</option>
+
+</select>
+</br>
+
+<div class="sett">
+ <input id="input" type="number" placeholder="0">
+ <div id="unit">Unit</div>
+</div>
+
+
+<button id="convert">Convert</button>
+</div>
+
+  <script src="Unitchanger.js"></script>
+  </body>
+</html>
+
+
